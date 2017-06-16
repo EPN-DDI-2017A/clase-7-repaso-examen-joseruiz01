@@ -1,0 +1,153 @@
+body{
+    background-color: #ecedee;
+}
+
+#subscribe,
+#services,
+#skills{
+    background-color: #fff;
+
+}
+
+#subscribe,
+#our-product,
+#services,
+#our-team,
+#skills,
+#contact{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+h2{
+    text-transform: uppercase;
+}
+/*Navbar*/
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-default{
+    background-color: #eee;
+    border-color: transparent;
+}
+
+.navbar li{
+    text-transform: uppercase;
+}
+
+.container .jumbotron{
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#carousel-header .carousel-caption{
+    top: 50%;
+    bottom: 0;
+    color: #000;
+    font-size: 21px;
+}
+
+#carousel-header .carousel-control{
+    height: 50px;
+    width: 4%;
+}
+
+#carousel-header .carousel-control.left,
+#carousel-header .carousel-control.right{
+    background-image: none;
+    top: 65%;
+    color: #000;
+}
+
+#carousel-header .carousel-control.left{
+    left: 45%
+}
+
+#carousel-header .carousel-control.right {
+    right: 45%
+}
+
+#carousel-header .carousel-indicators li,
+#carousel-header .carousel-indicators li.active{
+    background-color: #000;
+    opacity: 0.5;
+    border-color: #000;
+}
+
+#carousel-header .carousel-indicators li.active{
+    opacity: 0.3;
+}
+
+.txt-subscribe{
+    background-color: #56ccc8;
+    color: #000;
+    border-radius: 0;
+    border: none;
+}
+
+.btn-subscribe,
+.btn-send{
+    background-color: #ea6060;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: none;
+}
+
+.product-buttons{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.btn-left{
+    text-align: left;
+}
+
+.btn-right{
+    text-align: right;
+}
+
+.services-content{
+    margin-top: 25px
+}
+
+#services .media{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+
+#carousel-our-team .carousel-control.left,
+#carousel-our-team .carousel-control.right{
+    background-image: none;
+}
+
+#carousel-our-team .carousel-control.left{
+    left: -10%
+}
+
+#carousel-our-team .carousel-control.right {
+    right: -10%
+}
+
+
+#our-team .thumbnail{
+    background-color: transparent;
+    border:none;
+}
+
+#footer{
+    background-color: #565d67;
+    color: #fff;
+    padding: 30px;
+}
+
+#footer span{
+    font-size: 20px;
+}
